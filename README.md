@@ -20,6 +20,15 @@ SELECT payment_id, payment_date, amount FROM payment WHERE payment_date BETWEEN 
 
 ![alt text](https://github.com/mxssclxck/hw-12.03/blob/main/img/2.png)
 
+
+Доработка:
+
+```SQL
+SELECT payment_id, payment_date, amount FROM payment WHERE payment_date BETWEEN '2005-06-15 00:00:00' AND '2005-06-19 23:59:59' AND amount > 10.00 ORDER BY payment_date DESC;
+```
+
+![alt text](https://github.com/mxssclxck/hw-12.03/blob/main/img/2.1.png)
+
 ## Задание 3
 
 Получите последние пять аренд фильмов.
